@@ -1,0 +1,29 @@
+
+
+Branches
+	master : final branch
+	staging : merge to staging after successful implematation of a feature
+	
+	custom-name : create a custom branch to implement a specific feature
+
+
+Implement a feature
+	1. Clone the repo
+	git clone https://github.com/SE2Prj-FAITH/FAITH.git
+
+	2. Create a feature Branch (derived from staging Branch)
+	git checkout -b <myFeatureName> staging
+
+	3. Implement your feature, commit to feature branch
+	
+	4. Your feature is completed
+	5. Push to github.com
+	git push -u origin <myFeatureName>
+
+	6. Go to github.com
+	merge <myFeatureBranch> with staging
+	
+	7. Create a pull request from staging to master
+
+	8. Someone else accepts your commit and merges your changes to master
+	
