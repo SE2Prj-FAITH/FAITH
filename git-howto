@@ -1,9 +1,5 @@
-
 Branches
-	master : final branch
-	staging : merge to staging after successful implematation of a feature
-	
-	custom-name : create a custom branch to implement a specific feature
+	always push to master 
 
 
 Implement a feature
