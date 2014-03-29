@@ -12,6 +12,9 @@ Implement a feature
 	3. git diff
 	see what changed locally
 	
+	Maven:
+	mvn clean install > must be successful
+	
 	4. git add .
 	
 	5. git commit -m "added a feature" 
